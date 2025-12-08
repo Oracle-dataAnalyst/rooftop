@@ -14,3 +14,11 @@ venv/
 
 # Streamlit
 .streamlit/
+
+# Data
+data/raw/*
+!data/raw/README.md
+
+# Notebooks
+.ipynb_checkpoints
+
