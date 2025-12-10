@@ -6,3 +6,8 @@ matplotlib
 plotly
 pytest
 coverage
+numpy
+seaborn
+koreanize-matplotlib
+ipykernel
+setuptools
