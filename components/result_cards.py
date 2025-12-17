@@ -1,6 +1,5 @@
 import streamlit as st
 
-def metric_row(items):
-    cols = st.columns(len(items))
-    for col, (label, value) in zip(cols, items):
-        col.metric(label, value)
+def render_result_cards(data):
+    st.metric("Temperature Reduction", "2.5°C")
+    st.metric("CO2 Absorption", "150kg/yr")
