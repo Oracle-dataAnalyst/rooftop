@@ -30,7 +30,10 @@ class GreeningCoeff:
     load_kg_per_m2: float
 
 DEFAULT_BASELINE_SURFACE_TEMP_C = 60.0
-DEFAULT_HVAC_SAVINGS_KWH_PER_DEG_M2 = 4.0
+# ΔT 대비 냉난방 절감 환산 계수 (kWh/°C·㎡)
+# MVP v1.1: 보수화(기존 4.0 → 2.2)
+# 예) ΔT 3.85°C, 2,998㎡ → 약 25MWh/년 수준
+DEFAULT_HVAC_SAVINGS_KWH_PER_DEG_M2 = 2.2
 
 # MVP 기본 계수 세트 (임시)
 DEFAULT_GREENING_COEFFS: dict[str, GreeningCoeff] = {
