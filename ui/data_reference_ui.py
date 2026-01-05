@@ -364,6 +364,27 @@ def render_data_reference_ui():
               <div class="ref-meta">서울특별시 · 푸른도시국</div>
             </div>
           </div>
+          <div class="reference-item">
+            <div class="ref-number">6</div>
+            <div class="ref-content">
+              <div class="ref-title">옥상녹화시스템 유형별 건물에너지 절감 및 경제성 분석</div>
+              <div class="ref-meta">김정호·윤용한, 2011 게재학회지: 서울도시연구 (Seoul Urban Research), 제12권 제2호</div>
+            </div>
+          </div>
+           <div class="reference-item">
+            <div class="ref-number">7</div>
+            <div class="ref-content">
+              <div class="ref-title">(2023) 건물에너지절약을 위한 저류옥상녹화의 온도저감효과</div>
+              <div class="ref-meta">윤석한 외 서울대학교(SNU) 조경·지역시스템공학부 및 한국그린인프라연구소 공동연구팀</div>
+            </div>
+            </div>
+             <div class="reference-item">
+            <div class="ref-number">8</div>
+            <div class="ref-content">
+              <div class="ref-title">옥상녹화 평지붕의 표면온도 저감효과에 대한 고찰</div>
+              <div class="ref-meta">이두호·이응직, 2012 한국환경복원기술학회지</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
