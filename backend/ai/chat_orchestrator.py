@@ -1,3 +1,4 @@
+from backend.ai.retriever import retrieve_documents
 from backend.core.models import ServiceQuestion
 
 SERVICE_INTRO = (
@@ -10,4 +11,7 @@ def build_service_intro_response(message: str) -> str:
     question = ServiceQuestion(message=message)
     if not question.message.strip():
         return "궁금한 내용을 입력해 주세요."
+    retrieved = retrieve_documents(question.message)
+    if retrieved:
+        return f"{SERVICE_INTRO} (참고 문서: {', '.join(retrieved)})"
     return SERVICE_INTRO
