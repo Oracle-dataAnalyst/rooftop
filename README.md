@@ -16,3 +16,6 @@
 - [test]: 테스트 결과
 - [chore]: 설정/의존성/기타 등
 - [perf]: 성능 개선
+
+## 마이그레이션 가이드
+- Streamlit → FastAPI + React 전환 단계는 `shared/docs/migration.md`를 참고하세요.
